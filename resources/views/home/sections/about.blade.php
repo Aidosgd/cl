@@ -18,7 +18,7 @@
                         <div class="page-section_about__wrapper-img"><img class="page-section_about__img" src="img/about/about1.jpg" alt=""></div>
                         <div class="page-section_about__info">
                             <p class="p p_regular">Обученный персонал (постоянный контроль качества уборщиков, прикрепление менеджера к объекту); Качественные профессиональные химические средства (производства Польша, Германия, Америка, Китай и отечественного производителя); </p>
-                            <div class="page-section_about__wrapper-button"><a class="button button_default button_large button_colored-2" href="#">Read more</a></div>
+                            {{--<div class="page-section_about__wrapper-button"><a class="button button_default button_large button_colored-2" href="#">Read more</a></div>--}}
                         </div>
                     </div>
                 </div>

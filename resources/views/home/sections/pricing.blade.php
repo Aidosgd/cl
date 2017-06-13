@@ -20,7 +20,7 @@
                             <header class="pricing-table__header">
                                 <h3 class="pricing-table__heading">однокомнатная</h3><span class="pricing-table__price">от 6000</span><span class="pricing-table__subline"></span>
                             </header>
-                            <div class="pricing-table__wrapper-button"><a class="button button_default button_large" href="#">Order now</a></div>
+                            {{--<div class="pricing-table__wrapper-button"><a class="button button_default button_large" href="#">Order now</a></div>--}}
                         </div>
                     </div>
                 </div>
@@ -33,7 +33,7 @@
                                 <h3 class="pricing-table__heading">2х комнатная</h3><span class="pricing-table__price">от 11000</span><span class="pricing-table__subline"></span>
                             </header>
 
-                            <div class="pricing-table__wrapper-button"><a class="button button_default button_large" href="#">Order now</a></div>
+                            {{--<div class="pricing-table__wrapper-button"><a class="button button_default button_large" href="#">Order now</a></div>--}}
                         </div>
                     </div>
                 </div>
@@ -46,7 +46,7 @@
                                 <h3 class="pricing-table__heading">3х комнатная </h3><span class="pricing-table__price">от 16000</span><span class="pricing-table__subline"></span>
                             </header>
 
-                            <div class="pricing-table__wrapper-button"><a class="button button_default button_large" href="#">Order now</a></div>
+                            {{--<div class="pricing-table__wrapper-button"><a class="button button_default button_large" href="#">Order now</a></div>--}}
                         </div>
                     </div>
                 </div>

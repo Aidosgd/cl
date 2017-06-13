@@ -36,53 +36,53 @@
                     <img class="site-logo__img" src="/img/icons/icon-heading.png" alt="Cleaner HTML Template"> EXPERT CLEANING
                 </a>
             </div>
-            <div class="top-navigation__menu" style="display: none !important;">
-                <div class="container">
-                    <ul class="list-top-menu">
-                        <li class="list-top-menu__item list-top-menu__item_has-submenu"><a class="list-top-menu__link" href="#">Home</a>
-                            <ul class="list-submenu">
-                                <li class="list-submenu__item"><a class="list-submenu__link" href="index.html">Home v1</a></li>
-                                <li class="list-submenu__item"><a class="list-submenu__link" href="home-02.html">Home v2</a></li>
-                            </ul>
-                        </li>
-                        <li class="list-top-menu__item list-top-menu__item_has-submenu"><a class="list-top-menu__link" href="#">About us</a>
-                            <ul class="list-submenu">
-                                <li class="list-submenu__item"><a class="list-submenu__link" href="about.html">About Company</a></li>
-                                <li class="list-submenu__item"><a class="list-submenu__link" href="about-history.html">Our History</a></li>
-                            </ul>
-                        </li>
-                        <li class="list-top-menu__item list-top-menu__item_has-submenu"><a class="list-top-menu__link" href="#">Services</a>
-                            <ul class="list-submenu">
-                                <li class="list-submenu__item"><a class="list-submenu__link" href="services.html">Our Services</a></li>
-                                <li class="list-submenu__item"><a class="list-submenu__link" href="service-details.html">Service Details</a></li>
-                            </ul>
-                        </li>
-                        <li class="list-top-menu__item list-top-menu__item_has-submenu"><a class="list-top-menu__link" href="#">Gallery</a>
-                            <ul class="list-submenu">
-                                <li class="list-submenu__item"><a class="list-submenu__link" href="gallery-3col-box.html">Gallery 3 Columns Box</a></li>
-                                <li class="list-submenu__item"><a class="list-submenu__link" href="gallery-3col-fullwidth.html">Gallery 3 Columns Fullwidth</a></li>
-                                <li class="list-submenu__item"><a class="list-submenu__link" href="gallery-4col-box.html">Gallery 4 Columns Box</a></li>
-                                <li class="list-submenu__item"><a class="list-submenu__link" href="gallery-4col-fullwidth.html">Gallery 4 Columns Fullwidth</a></li>
-                            </ul>
-                        </li>
-                        <li class="list-top-menu__item list-top-menu__item_has-submenu"><a class="list-top-menu__link" href="#">Team</a>
-                            <ul class="list-submenu">
-                                <li class="list-submenu__item"><a class="list-submenu__link" href="team.html">Our Team</a></li>
-                                <li class="list-submenu__item"><a class="list-submenu__link" href="team-details.html">Member Details</a></li>
-                            </ul>
-                        </li>
-                        <li class="list-top-menu__item"><a class="list-top-menu__link" href="pricing.html">Pricing</a></li>
-                        <li class="list-top-menu__item list-top-menu__item_has-submenu"><a class="list-top-menu__link" href="#">Blog</a>
-                            <ul class="list-submenu">
-                                <li class="list-submenu__item"><a class="list-submenu__link" href="blog.html">Blog List Posts</a></li>
-                                <li class="list-submenu__item"><a class="list-submenu__link" href="blog-singlepost.html">Blog Singlepost</a></li>
-                            </ul>
-                        </li>
-                        <li class="list-top-menu__item"><a class="list-top-menu__link" href="contacts.html">Contact</a></li>
-                    </ul>
-                </div>
-            </div>
-            <a class="top-navigation__toggle-menu" id="js-toggle-menu" href="#"></a>
+            {{--<div class="top-navigation__menu" style="display: none !important;">--}}
+                {{--<div class="container">--}}
+                    {{--<ul class="list-top-menu">--}}
+                        {{--<li class="list-top-menu__item list-top-menu__item_has-submenu"><a class="list-top-menu__link" href="#">Home</a>--}}
+                            {{--<ul class="list-submenu">--}}
+                                {{--<li class="list-submenu__item"><a class="list-submenu__link" href="index.html">Home v1</a></li>--}}
+                                {{--<li class="list-submenu__item"><a class="list-submenu__link" href="home-02.html">Home v2</a></li>--}}
+                            {{--</ul>--}}
+                        {{--</li>--}}
+                        {{--<li class="list-top-menu__item list-top-menu__item_has-submenu"><a class="list-top-menu__link" href="#">About us</a>--}}
+                            {{--<ul class="list-submenu">--}}
+                                {{--<li class="list-submenu__item"><a class="list-submenu__link" href="about.html">About Company</a></li>--}}
+                                {{--<li class="list-submenu__item"><a class="list-submenu__link" href="about-history.html">Our History</a></li>--}}
+                            {{--</ul>--}}
+                        {{--</li>--}}
+                        {{--<li class="list-top-menu__item list-top-menu__item_has-submenu"><a class="list-top-menu__link" href="#">Services</a>--}}
+                            {{--<ul class="list-submenu">--}}
+                                {{--<li class="list-submenu__item"><a class="list-submenu__link" href="services.html">Our Services</a></li>--}}
+                                {{--<li class="list-submenu__item"><a class="list-submenu__link" href="service-details.html">Service Details</a></li>--}}
+                            {{--</ul>--}}
+                        {{--</li>--}}
+                        {{--<li class="list-top-menu__item list-top-menu__item_has-submenu"><a class="list-top-menu__link" href="#">Gallery</a>--}}
+                            {{--<ul class="list-submenu">--}}
+                                {{--<li class="list-submenu__item"><a class="list-submenu__link" href="gallery-3col-box.html">Gallery 3 Columns Box</a></li>--}}
+                                {{--<li class="list-submenu__item"><a class="list-submenu__link" href="gallery-3col-fullwidth.html">Gallery 3 Columns Fullwidth</a></li>--}}
+                                {{--<li class="list-submenu__item"><a class="list-submenu__link" href="gallery-4col-box.html">Gallery 4 Columns Box</a></li>--}}
+                                {{--<li class="list-submenu__item"><a class="list-submenu__link" href="gallery-4col-fullwidth.html">Gallery 4 Columns Fullwidth</a></li>--}}
+                            {{--</ul>--}}
+                        {{--</li>--}}
+                        {{--<li class="list-top-menu__item list-top-menu__item_has-submenu"><a class="list-top-menu__link" href="#">Team</a>--}}
+                            {{--<ul class="list-submenu">--}}
+                                {{--<li class="list-submenu__item"><a class="list-submenu__link" href="team.html">Our Team</a></li>--}}
+                                {{--<li class="list-submenu__item"><a class="list-submenu__link" href="team-details.html">Member Details</a></li>--}}
+                            {{--</ul>--}}
+                        {{--</li>--}}
+                        {{--<li class="list-top-menu__item"><a class="list-top-menu__link" href="pricing.html">Pricing</a></li>--}}
+                        {{--<li class="list-top-menu__item list-top-menu__item_has-submenu"><a class="list-top-menu__link" href="#">Blog</a>--}}
+                            {{--<ul class="list-submenu">--}}
+                                {{--<li class="list-submenu__item"><a class="list-submenu__link" href="blog.html">Blog List Posts</a></li>--}}
+                                {{--<li class="list-submenu__item"><a class="list-submenu__link" href="blog-singlepost.html">Blog Singlepost</a></li>--}}
+                            {{--</ul>--}}
+                        {{--</li>--}}
+                        {{--<li class="list-top-menu__item"><a class="list-top-menu__link" href="contacts.html">Contact</a></li>--}}
+                    {{--</ul>--}}
+                {{--</div>--}}
+            {{--</div>--}}
+            {{--<a class="top-navigation__toggle-menu" id="js-toggle-menu" href="#"></a>--}}
         </nav>
     </div>
     <!-- - nav -->
