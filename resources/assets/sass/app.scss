@@ -1,9 +1,17 @@
 
-// Fonts
-@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);
+//// Fonts
+//@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);
+//
+//// Variables
+//@import "variables";
+//
+//// Bootstrap
+//@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
 
-// Variables
-@import "variables";
+@media (max-width: 786px) {
 
-// Bootstrap
-@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+  .page-header_multi .top-navigation__logo, .top-navigation__menu{
+    width: 100%;
+  }
+
+}

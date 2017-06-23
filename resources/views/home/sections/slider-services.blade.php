@@ -18,10 +18,10 @@
                         <div class="swiper-wrapper slider-services__wrapper">
                             <div class="swiper-slide slider-services__slide"><img class="slider-services__img" src="img/projects/project1.jpg" alt=""></div>
                             <div class="swiper-slide slider-services__slide"><img class="slider-services__img" src="img/projects/project2.jpg" alt=""></div>
-                            <div class="swiper-slide slider-services__slide"><img class="slider-services__img" src="img/projects/project3.jpg" alt=""></div>
+                            {{--<div class="swiper-slide slider-services__slide"><img class="slider-services__img" src="img/projects/project3.jpg" alt=""></div>--}}
                             {{--<div class="swiper-slide slider-services__slide"><img class="slider-services__img" src="img/projects/project4.jpg" alt=""></div>--}}
-                            {{--<div class="swiper-slide slider-services__slide"><img class="slider-services__img" src="img/projects/project5.jpg" alt=""></div>--}}
-                            {{--<div class="swiper-slide slider-services__slide"><img class="slider-services__img" src="img/projects/project6.jpg" alt=""></div>--}}
+                            <div class="swiper-slide slider-services__slide"><img class="slider-services__img" src="img/projects/project5.jpg" alt=""></div>
+                            <div class="swiper-slide slider-services__slide"><img class="slider-services__img" src="img/projects/project6.jpg" alt=""></div>
                         </div>
                     </div>
                 </div>
@@ -34,18 +34,18 @@
                             <div class="swiper-slide slider-services-controls__slide">
                                 <h3 class="slider-services-controls__heading">уборка дома</h3>
                             </div>
-                            <div class="swiper-slide slider-services-controls__slide">
-                                <h3 class="slider-services-controls__heading">уборка машины</h3>
-                            </div>
+                            {{--<div class="swiper-slide slider-services-controls__slide">--}}
+                                {{--<h3 class="slider-services-controls__heading">уборка машины</h3>--}}
+                            {{--</div>--}}
                             {{--<div class="swiper-slide slider-services-controls__slide">--}}
                                 {{--<h3 class="slider-services-controls__heading">уборка машин</h3>--}}
                             {{--</div>--}}
-                            {{--<div class="swiper-slide slider-services-controls__slide">--}}
-                                {{--<h3 class="slider-services-controls__heading">Construction cleaning</h3>--}}
-                            {{--</div>--}}
-                            {{--<div class="swiper-slide slider-services-controls__slide">--}}
-                                {{--<h3 class="slider-services-controls__heading">Wall cleaning</h3>--}}
-                            {{--</div>--}}
+                            <div class="swiper-slide slider-services-controls__slide">
+                                <h3 class="slider-services-controls__heading">уборка ТРК</h3>
+                            </div>
+                            <div class="swiper-slide slider-services-controls__slide">
+                                <h3 class="slider-services-controls__heading">уборка супермаркетов</h3>
+                            </div>
                         </div>
                         <div class="slider-services-controls__controls"><span class="slider-services-controls__prev"></span><span class="slider-services-controls__next"></span></div>
                     </div>

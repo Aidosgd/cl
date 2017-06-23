@@ -29,7 +29,7 @@
                             <div class="contact">
                                 <div class="contact__wrapper-icon"><i class="contact__icon fa fa-map-marker"></i></div>
                                 <div class="contact__wrapper-content">
-                                    <h3 class="contact__heading">Адрес</h3><span class="contact__label">мкр Акбулак ул Беделбай 8</span>
+                                    <h3 class="contact__heading">Адрес</h3><span class="contact__label">Байзакова 280 бц almaty towers</span>
                                 </div>
                             </div>
                         </li>

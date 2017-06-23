@@ -219,8 +219,8 @@ $(document).ready(function () {
         new Maplace({
             map_div: "#js-google-map-contacts",
             locations: [{
-                lat: 43.245175,
-                lon: 76.824076,
+                lat: 43.237235,
+                lon: 76.915048,
                 title: "Title A1",
                 html: '<p class="p">EXPERT CLEANING</p>',
                 icon: "img/icons/map-marker-2.png",

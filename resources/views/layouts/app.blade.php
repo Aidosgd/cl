@@ -8,7 +8,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'Laravel') }}</title>
+    <title>Клининговая компания Expert Cleaning</title>
 
     <!-- Styles -->
     <link rel="stylesheet" href="/css/bootstrap.min.css">
@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="/css/ion.tabs.css">
     <link rel="stylesheet" href="/css/magnific-popup.css">
     <link rel="stylesheet" href="/css/style.css">
-    {{--<link href="/css/app.css" rel="stylesheet">--}}
+    <link href="/css/app.css" rel="stylesheet">
 
     <!-- Scripts -->
     <script>
@@ -53,23 +53,23 @@
 
     <!-- Scripts -->
     {{--<script src="/js/app.js"></script>--}}
-    <script src="js/modernizr.custom.js"></script>
-    <script src="js/jquery.min.js"></script>
-    <script src="js/swiper.jquery.min.js"></script>
-    <script src="js/jquery.easeScroll.js"></script>
-    <script src="js/jquery.equalheights.min.js"></script>
-    <script src="js/imagesloaded.pkgd.min.js"></script>
-    <script src="js/masonry.pkgd.min.js"></script>
-    <script src="js/isotope.pkgd.min.js"></script>
-    <script src="js/jarallax.min.js"></script>
-    <script src="js/ion.tabs.min.js"></script>
-    <script src="js/jquery.waypoints.min.js"></script>
-    <script src="js/jquery.easing.min.js"></script>
-    <script src="js/jquery.counterup.min.js"></script>
-    <script src="js/circle-progress.min.js"></script>
-    <script src="js/jquery.accordion.js"></script>
-    <script src="js/jquery.magnific-popup.min.js"></script>
-    <script src="js/maplace.min.js"></script>
+    <script src="/js/modernizr.custom.js"></script>
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/swiper.jquery.min.js"></script>
+    <script src="/js/jquery.easeScroll.js"></script>
+    <script src="/js/jquery.equalheights.min.js"></script>
+    <script src="/js/imagesloaded.pkgd.min.js"></script>
+    <script src="/js/masonry.pkgd.min.js"></script>
+    <script src="/js/isotope.pkgd.min.js"></script>
+    <script src="/js/jarallax.min.js"></script>
+    <script src="/js/ion.tabs.min.js"></script>
+    <script src="/js/jquery.waypoints.min.js"></script>
+    <script src="/js/jquery.easing.min.js"></script>
+    <script src="/js/jquery.counterup.min.js"></script>
+    <script src="/js/circle-progress.min.js"></script>
+    <script src="/js/jquery.accordion.js"></script>
+    <script src="/js/jquery.magnific-popup.min.js"></script>
+    <script src="/js/maplace.min.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD3gFKhVywUkygSxQEBdGVrI5-ZRrdjueA"></script>
     <script src="js/common.js"></script>
 </body>

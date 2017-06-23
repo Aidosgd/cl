@@ -6,7 +6,8 @@
             <div class="topbar">
                 <div class="topbar__section">
                     <ul class="list-contacts">
-                        {{--<li class="list-contacts__item"><span class="list-contacts__label">Welcome to Cleaning Service Store</span></li>--}}
+                        <li class="list-contacts__item"><span class="list-contacts__label"><i class="fa fa-map-marker"></i> Адрес: Байзакова 280 бц almaty towers <i style="padding-left: 10px" class="fa fa-phone"></i> Телефоны: <a
+                                        href="tel:8 (708) 988 48 11">8 (708) 988 48 11</a>, <a href="tel:8 (747) 862 65 10">8 (747) 862 65 10</a></span></li>
                     </ul>
                 </div>
                 <div class="topbar__section"><a class="button button_default button_colored-2" id="js-toggle-estimate" href="#">Заказать звонок</a>
@@ -33,7 +34,7 @@
         <nav class="top-navigation">
             <div class="top-navigation__logo">
                 <a class="site-logo" href="/" style="font-size: 30px;">
-                    <img class="site-logo__img" src="/img/icons/icon-heading.png" alt="Cleaner HTML Template"> EXPERT CLEANING
+                    <img class="site-logo__img" src="/img/eclogo.png" alt="EXPERT CLEANING">
                 </a>
             </div>
             {{--<div class="top-navigation__menu" style="display: none !important;">--}}
