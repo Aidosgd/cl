@@ -7,21 +7,22 @@
                 <div class="topbar__section">
                     <ul class="list-contacts">
                         <li class="list-contacts__item"><span class="list-contacts__label"><i class="fa fa-map-marker"></i> Адрес: Байзакова 280 бц almaty towers <i style="padding-left: 10px" class="fa fa-phone"></i> Телефоны: <a
-                                        href="tel:8 (708) 988 48 11">8 (708) 988 48 11</a>, <a href="tel:8 (747) 862 65 10">8 (747) 862 65 10</a></span></li>
+                                        href="tel:8 (708) 988 48 11">8 (708) 988 48 11</a>, <a href="tel:8 (707) 901 99 91">8 (707) 901 99 91</a></span></li>
                     </ul>
                 </div>
                 <div class="topbar__section"><a class="button button_default button_colored-2" id="js-toggle-estimate" href="#">Заказать звонок</a>
                     <div class="page-header_multi__form-estimate" id="js-form-estimate">
-                        <form class="form form_estimate" action="home-01.html" method="GET">
+                        <form class="form form_estimate" action="/mail" method="POST">
+                            <input type="hidden" name="_token" value="{{ csrf_token() }}">
                             <div class="form-control form_estimate__control">
-                                <input class="form-control__input form_estimate__control-input" type="text" placeholder="Имя">
+                                <input class="form-control__input form_estimate__control-input" type="text" name="name" placeholder="Имя">
                             </div>
 
                             <div class="form-control form_estimate__control">
-                                <input class="form-control__input form_estimate__control-input" type="tel" placeholder="Телефон">
+                                <input class="form-control__input form_estimate__control-input" type="tel" name="phone" placeholder="Телефон">
                             </div>
 
-                            <div class="form__wrapper-submit form_estimate__wrapper-submit"><a class="form__submit-button button button_default button_large" href="#">Отправить</a></div>
+                            <div class="form__wrapper-submit form_estimate__wrapper-submit"><button class="form__submit-button button button_default button_large" href="#">Отправить</button></div>
                         </form>
                     </div>
                 </div>

@@ -1,6 +1,54 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab);
+* {
+  font-family: 'Roboto Slab', serif;
+}
+
+.subline__text:first-child:after {
+  content: ' ';
+}
+
+.page-section_intro {
+  min-height: inherit;
+  margin-bottom: 0;
+  border-bottom: 10px solid black;
+  padding-bottom: 0;
+}
+
+.page-section_intro .right h3 {
+  font-family: roboto slab,sans-serif;
+  font-size: 50px;
+  text-transform: inherit;
+  color: #142438;
+  line-height: 50px;
+}
+
+.page-section_intro .right h4 {
+  font-family: roboto slab,sans-serif;
+  font-size: 24px;
+  color: #142438;
+}
+
+.page-section_intro .right .btn-alert {
+  background: #26c9ff;
+  color: white;
+  font-size: 24px;
+  padding: 10px 25px;
+  text-align: center;
+  border-radius: 5px;
+}
+
 @media (max-width: 786px) {
   .page-header_multi .top-navigation__logo, .top-navigation__menu {
     width: 100%;
+  }
+  .page-section_intro {
+    padding: 15px;
+  }
+  .page-section_intro .right {
+    text-align: center;
+  }
+  .page-section_intro .right h3 {
+    white-space: nowrap;
   }
 }
 

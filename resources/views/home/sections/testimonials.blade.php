@@ -18,11 +18,11 @@
                     <div class="swiper-slide slider-testimonials-2__slide">
                         <div class="testimonial-2">
                             <div class="testimonial-2__content">
-                                <p class="p testimonial-2__text">Огромное спасибо коллективу Алмаклин, девушки уборку сделали на отлично, буду весной делать ремонт обязательно свяжусь! Успехов Вам и новых побед!</p>
+                                <p class="p testimonial-2__text">Огромное спасибо коллективу Экспертклининг, девушки уборку сделали на отлично, буду весной делать ремонт обязательно свяжусь! Успехов Вам и новых побед!</p>
                             </div>
                             <header class="testimonial-2__header"><img class="testimonial-2__avatar" src="img/testimonials/Кульдана.png" alt="">
                                 <div class="testimonial-2__info">
-                                    <h3 class="testimonial-2__author">Куримбаева Азиза</h3>
+                                    <h3 class="testimonial-2__author">Азиза</h3>
                                     {{--<span class="testimonial-2__position">Developer</span>--}}
                                     {{--<ul class="list-social">--}}
                                         {{--<li class="list-social__item"><a class="list-social__link fa fa-facebook" href="#"></a></li>--}}
@@ -42,7 +42,7 @@
                             </div>
                             <header class="testimonial-2__header"><img class="testimonial-2__avatar" src="img/testimonials/Андрей-Ли.png" alt="">
                                 <div class="testimonial-2__info">
-                                    <h3 class="testimonial-2__author">Roger A. Tyler</h3>
+                                    <h3 class="testimonial-2__author">Серик</h3>
                                     {{--<span class="testimonial-2__position">Developer</span>--}}
                                     {{--<ul class="list-social">--}}
                                         {{--<li class="list-social__item"><a class="list-social__link fa fa-facebook" href="#"></a></li>--}}

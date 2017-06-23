@@ -30,6 +30,12 @@
 <body>
     @include('parts.header')
 
+    @if(session()->has('message'))
+        <div class="alert alert-success" style="text-align: center">
+            <h2>{{ session()->get('message') }}</h2>
+        </div>
+    @endif
+
     <!-- PAGE MAIN -->
     <main class="page-main">
         @include('home.sections.intro')

@@ -261,4 +261,14 @@ $(document).ready(function () {
             }), this.destroy()
         }, {offset: "100%"})
     }), $("[data-accordion]").accordion({transitionSpeed: 400, singleOpen: !0})
+
+    $(document).on('click', 'a', function(event){
+        event.preventDefault();
+
+        $('html, body').animate({
+            scrollTop: $( $.attr(this, 'href') ).offset().top
+        }, 1000);
+    });
+
+    console.log({} == {})
 });
