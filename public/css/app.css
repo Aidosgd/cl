@@ -37,6 +37,35 @@
   border-radius: 5px;
 }
 
+.five-reasons {
+  text-align: center;
+}
+
+.five-reasons h2 {
+  font-size: 38px;
+  color: #140f06;
+}
+
+.five-reasons .reasons-one .circle {
+  border: 3px solid #140f06;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.five-reasons .reasons-one .circle.no-border {
+  border: none;
+  border-radius: 0;
+}
+
+.five-reasons .reasons-one h4 {
+  font-size: 17px;
+  font-weight: 300;
+}
+
+.slider-services-controls__slide {
+  height: 50px !important;
+}
+
 @media (max-width: 786px) {
   .page-header_multi .top-navigation__logo, .top-navigation__menu {
     width: 100%;
@@ -49,6 +78,7 @@
   }
   .page-section_intro .right h3 {
     white-space: nowrap;
+    font-size: 18px;
   }
 }
 

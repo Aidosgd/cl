@@ -45,6 +45,36 @@
   }
 }
 
+.five-reasons{
+  text-align: center;
+  h2{
+    font-size: 38px;
+    color: #140f06;
+  }
+  .reasons-one{
+    .circle{
+      border: 3px solid #140f06;
+      border-radius: 50%;
+      padding: 10px;
+      &.no-border{
+        border: none;
+        border-radius: 0;
+      }
+    }
+    h3{
+
+    }
+    h4{
+      font-size: 17px;
+      font-weight: 300;
+    }
+  }
+}
+
+.slider-services-controls__slide{
+  height: 50px !important;
+}
+
 @media (max-width: 786px) {
 
   .page-header_multi .top-navigation__logo, .top-navigation__menu{
@@ -57,6 +87,7 @@
       text-align: center;
       h3{
         white-space: nowrap;
+        font-size: 18px;
       }
     }
   }

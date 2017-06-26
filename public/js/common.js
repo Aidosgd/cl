@@ -223,7 +223,7 @@ $(document).ready(function () {
                 lon: 76.915048,
                 title: "Title A1",
                 html: '<p class="p">EXPERT CLEANING</p>',
-                icon: "img/icons/map-marker-2.png",
+                icon: "img/eclogo.png",
                 zoom: 17
             }],
             controls_type: "list",

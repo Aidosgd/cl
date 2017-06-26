@@ -38,8 +38,8 @@
 
     <!-- PAGE MAIN -->
     <main class="page-main">
-        @include('home.sections.intro')
         @include('home.sections.about')
+        @include('home.sections.intro')
         @include('home.sections.facts')
         @include('home.sections.slider-services')
         {{--@include('home.sections.projects')--}}

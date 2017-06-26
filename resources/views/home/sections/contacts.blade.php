@@ -5,7 +5,7 @@
         <div class="container">
             <div class="contact-info">
                 <div class="contact-info__content">
-                    <div class="contact-info__logo"><a class="site-logo" href="home-02.html"><img class="site-logo__img" src="img/logo4.png" alt="Cleaner HTML Template"></a></div>
+                    {{--<div class="contact-info__logo"><a class="site-logo" href="home-02.html"><img class="site-logo__img" src="img/logo4.png" alt="Cleaner HTML Template"></a></div>--}}
                     <p class="p _color-inverse">профессиональная уборка помещений и прилегающих территорий.</p>
                 </div>
                 <div class="contact-info__form">
