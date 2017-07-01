@@ -52,6 +52,8 @@
                 </div>
                 <!-- - pricing table 3 -->
             </div>
+
+            <h3 style="text-align: center">Виды уборки :стандартная, генеральная, после ремонта</h3>
         </div>
     </div>
 </section>

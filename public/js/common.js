@@ -269,6 +269,4 @@ $(document).ready(function () {
             scrollTop: $( $.attr(this, 'href') ).offset().top
         }, 1000);
     });
-
-    console.log({} == {})
 });

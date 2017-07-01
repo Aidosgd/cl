@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="/css/pe-icon-7-stroke.css">
     <link rel="stylesheet" href="/css/ion.tabs.css">
     <link rel="stylesheet" href="/css/magnific-popup.css">
+    <link rel="stylesheet" href="/css/jquery.countdown.css">
     <link rel="stylesheet" href="/css/style.css">
     <link href="/css/app.css" rel="stylesheet">
 
@@ -38,6 +39,22 @@
 
     <!-- PAGE MAIN -->
     <main class="page-main">
+
+        <section class="countdown">
+            <div class="container">
+                <ul class="action-text">
+                    <li>При постоянных  заказах уборки:</li>
+                    <li>Раз в неделю 20%.</li>
+                    <li>Раз в две недели 15%,</li>
+                    <li>Раз в месяц 10%</li>
+                </ul>
+
+                <h2>До завершения акции</h2>
+
+                <div id="defaultCountdown"></div>
+            </div>
+        </section>
+
         @include('home.sections.about')
         @include('home.sections.intro')
         @include('home.sections.facts')
@@ -77,6 +94,21 @@
     <script src="/js/jquery.magnific-popup.min.js"></script>
     <script src="/js/maplace.min.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD3gFKhVywUkygSxQEBdGVrI5-ZRrdjueA"></script>
-    <script src="js/common.js"></script>
+    <script src="/js/jquery.plugin.js"></script>
+    <script src="/js/jquery.countdown.js"></script>
+    <script src="/js/jquery.countdown-ru.js"></script>
+    <script src="/js/common.js"></script>
+    <script>
+        $(function () {
+//            var austDay = new Date();
+            var austDay = new Date(2017, 8, 1);
+            console.log(austDay);
+            $('#defaultCountdown')
+                .countdown({
+                    until: austDay,
+                    format: 'dHM'
+                });
+        })
+    </script>
 </body>
 </html>
