@@ -40,29 +40,17 @@
     <!-- PAGE MAIN -->
     <main class="page-main">
 
-        <section class="countdown">
-            <div class="container">
-                <ul class="action-text">
-                    <li>При постоянных  заказах уборки:</li>
-                    <li>Раз в неделю 20%.</li>
-                    <li>Раз в две недели 15%,</li>
-                    <li>Раз в месяц 10%</li>
-                </ul>
-
-                <h2>До завершения акции</h2>
-
-                <div id="defaultCountdown"></div>
-            </div>
-        </section>
 
         @include('home.sections.about')
-        @include('home.sections.intro')
         @include('home.sections.facts')
         @include('home.sections.slider-services')
+        @include('home.sections.five-reasons')
+        @include('home.sections.intro')
+        @include('home.sections.countdown')
         {{--@include('home.sections.projects')--}}
         {{--@include('home.sections.slider-team')--}}
-        @include('home.sections.testimonials')
         @include('home.sections.pricing')
+        @include('home.sections.testimonials')
         {{--@include('home.sections.news')--}}
         {{--@include('home.sections.banners')--}}
         {{--@include('home.sections.brands')--}}
@@ -106,7 +94,6 @@
             $('#defaultCountdown')
                 .countdown({
                     until: austDay,
-                    format: 'dHM'
                 });
         })
     </script>

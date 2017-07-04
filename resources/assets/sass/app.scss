@@ -19,7 +19,6 @@
 .page-section_intro{
   min-height: inherit;
   margin-bottom: 0;
-  border-bottom: 10px solid black;
   padding-bottom: 0;
   .right{
     h3{
@@ -47,6 +46,7 @@
 
 .five-reasons{
   text-align: center;
+  border-bottom: 5px solid #26c9ff;
   h2{
     font-size: 38px;
     color: #140f06;
@@ -113,8 +113,9 @@
 }
 
 .countdown{
-  background: url(/img/fon3_Rwy0OeH.jpg#size_2560x718);
+  //background: url(/img/fon3_Rwy0OeH.jpg#size_2560x718);
   padding: 50px;
+  border-bottom: 5px solid #26c9ff;
   .action-text{
     text-align: center;
     font-size: 40px;
